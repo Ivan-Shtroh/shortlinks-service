@@ -5,3 +5,5 @@ spring:
     password: somepassword
   liquibase:
     change-log: classpath:db/changelog/changelog.sql
+server:
+  port: 8082
